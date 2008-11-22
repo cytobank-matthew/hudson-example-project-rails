@@ -4,4 +4,8 @@ class Author < ActiveRecord::Base
     "stefan"
   end
   
+  def empty_m
+    "Do nothing"
+  end
+  
 end
