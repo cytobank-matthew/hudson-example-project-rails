@@ -16,8 +16,7 @@ class AuthorTest < ActiveSupport::TestCase
   end
   
   def test_name_4
-    # This test will fail.
-    assert_equal "stefan2", Author.find(:first).name
+    assert_equal "stefan", Author.find(:first).name
   end
   
 end
