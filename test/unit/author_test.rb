@@ -23,4 +23,8 @@ class AuthorTest < ActiveSupport::TestCase
     assert_equal "stefan", Author.find(:first).name
   end
   
+  def test_name_6
+    assert_equal "stefan", Author.find(:first).name
+  end
+  
 end
