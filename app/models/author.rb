@@ -1,7 +1,7 @@
 class Author < ActiveRecord::Base
   
   def name
-    "stefan"
+    "stefan2"
   end
   
   def empty_m
