@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
 
   # See ActionController::RequestForgeryProtection for details
   # Uncomment the :secret if you're not using the cookie session store
-  protect_from_forgery # :secret => 'a21c104ad397f543dcc68b84da136abe'
+  protect_from_forgery # :secret => '94dcf53fac675da9caf97be5537510b3'
   
   # See ActionController::Base for details 
   # Uncomment this to filter the contents of submitted sensitive data parameters
