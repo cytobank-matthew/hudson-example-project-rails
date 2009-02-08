@@ -8,3 +8,9 @@ require 'rake/testtask'
 require 'rake/rdoctask'
 
 require 'tasks/rails'
+
+# ci_reporter
+gem 'ci_reporter'
+#require 'ci/reporter/rake/rspec' # use this if you're using RSpec
+require 'ci/reporter/rake/test_unit' # use this if you're using Test::Unit
+# /ci_reporter
