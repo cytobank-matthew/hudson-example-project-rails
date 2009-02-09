@@ -1,5 +1,6 @@
 class Author < ActiveRecord::Base
   
+  # TODO remove this useless method
   def name
     "stefan"
   end
